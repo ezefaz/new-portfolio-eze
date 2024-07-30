@@ -1,7 +1,6 @@
 "use client";
 
 import { navItems } from "@/data";
-
 import Hero from "@/components/Hero";
 import Grid from "@/components/Grid";
 import Footer from "@/components/Footer";
@@ -15,21 +14,23 @@ import CustomCursor from "@/components/animations/CustomCursor";
 
 const Home = () => {
   return (
-    <main className="relative bg-black-100 flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5">
-      <div className="max-w-7xl w-full">
-        <FloatingNav navItems={navItems} />
+    <SmoothScroll>
+      <div className="min-h-screen flex flex-col justify-between bg-black-100">
         <CustomCursor />
-        <SmoothScroll>
-          <Hero />
-          <Grid />
-          <RecentProjects />
-          <Approach />
-          <Experience />
-          <Clients />
-        </SmoothScroll>
-        <Footer />
+        <div className="max-w-7xl w-full mx-auto sm:px-10 px-5">
+          <FloatingNav navItems={navItems} />
+          <main className="flex-grow">
+            <Hero />
+            <Grid />
+            <RecentProjects />
+            <Approach />
+            <Experience />
+            <Clients />
+          </main>
+          <Footer />
+        </div>
       </div>
-    </main>
+    </SmoothScroll>
   );
 };
 

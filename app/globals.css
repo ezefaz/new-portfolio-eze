@@ -66,6 +66,24 @@
 	}
 }
 
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overscroll-behavior-y: none;
+  user-select: none;
+  background-color: whitesmoke;
+  font-size: 16px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 @layer base {
 	* {
 		@apply border-border !scroll-smooth;
@@ -76,11 +94,12 @@
 	button {
 		@apply active:outline-none;
 	}
+	
 }
 
 @layer utilities {
 	.heading {
-		@apply font-bold text-8xl text-center;
+		@apply font-bold text-8xl text-white text-center;
 	}
 }
 
