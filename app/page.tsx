@@ -11,6 +11,7 @@ import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
 import SmoothScroll from "@/components/animations/SmoothScroll";
 import CustomCursor from "@/components/animations/CustomCursor";
+import { CaseStudies } from "@/components/CaseStudies";
 
 const Home = () => {
   return (
@@ -23,6 +24,7 @@ const Home = () => {
             <Hero />
             <Grid />
             <RecentProjects />
+            <CaseStudies />
             <Approach />
             <Experience />
             <Clients />

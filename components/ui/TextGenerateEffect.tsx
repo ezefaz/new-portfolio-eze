@@ -36,8 +36,8 @@ export const TextGenerateEffect = ({
               // change here if idx is greater than 3, change the text color to #CBACF9
               className={` ${
                 idx > 2.5
-                  ? "text-transparent text-7xl  md:text-6xl  lg:text-9xl bg-clip-text bg-gradient-to-r from-white to-blue-400 opacity-0"
-                  : "text-6xl md:text-6xl  lg:text-9xl text-white "
+                  ? "text-transparent text-5xl  md:text-6xl m-auto lg:text-9xl bg-clip-text bg-gradient-to-r from-white to-blue-400 opacity-0"
+                  : "text-5xl md:text-6xl  lg:text-9xl text-white"
               } opacity-0`}
             >
               {word}{" "}

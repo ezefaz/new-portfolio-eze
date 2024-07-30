@@ -99,7 +99,7 @@ body {
 
 @layer utilities {
 	.heading {
-		@apply font-bold text-8xl text-white text-center;
+		@apply font-bold text-6xl lg:text-8xl md:text-7xl text-white text-center;
 	}
 }
 

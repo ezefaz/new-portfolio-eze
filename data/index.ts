@@ -64,7 +64,7 @@ export const gridItems = [
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-center md:max-w-full max-w-60 text-center",
-    img: "",
+    img: "/",
     spareImg: "",
   },
 ];
@@ -73,32 +73,32 @@ export const projects = [
   {
     id: 1,
     title: "LandFast",
-    des: "AI-powered platform for landing a job quickly. Create professional resumes, find jobs, craft smart job applications, and practice live mock interviews.",
-    img: "/landfast.png",
+    des: "AI-Powered Platform for Getting a Job Easy and Faster.",
+    img: "/landfast.jpeg",
     iconLists: ["/ai.svg", "/ats.svg", "/mock.svg", "/resume.svg"], // Example icons, replace with actual ones
     link: "https://landfast.app/",
   },
   {
     id: 2,
     title: "Savemelin",
-    des: "Smart Savings platform & Vendors management system. Purchase products at the lowest price with data scraped from MercadoLibre.",
-    img: "/images/savemelin.jpg",
+    des: "Smart Online Purchase Platform & Vendors Management System.",
+    img: "/savemelin.jpg",
     iconLists: ["/savings.svg", "/shopping.svg", "/data.svg"], // Example icons, replace with actual ones
     link: "https://savemelin.com/",
   },
   {
     id: 3,
     title: "WebGeenix",
-    des: "Software Development and IT Solutions Agency. Providing IT solutions and integrations for growing client businesses.",
-    img: "/images/webgeenix.png",
+    des: "Software Development and IT Solutions Agency.",
+    img: "/webgeenix.jpg",
     iconLists: ["/development.svg", "/it.svg", "/solutions.svg"], // Example icons, replace with actual ones
     link: "https://webgeenix.com/",
   },
   {
     id: 4,
     title: "PalermoJai",
-    des: "Website for a fully furnished apartment rental agency. Offers a unique lodging experience and an online reservation system.",
-    img: "/images/palermojai.com_.png",
+    des: "Website for a fully furnished apartment rental agency.",
+    img: "/palermito.jpg",
     iconLists: ["/rental.svg", "/booking.svg", "/lodging.svg"], // Example icons, replace with actual ones
     link: "https://palermojai.com/",
   },
@@ -115,33 +115,39 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Ezequiel is an excellent quality front-end oriented developer. He is creative, self-taught and decisive. He knows how to create intuitive and attractive designs. Thanks to the fact that it is aware of the clients needs, it manages to achieve the maximum experience for the user. I highlight his active listening, good camaraderie, and joy. He also knows how to ask for help when necessary!.",
+    name: "Jessica",
+    title: "Developer",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "I was part of the same team as Ezequiel in a project and he was a key person in the frontend, he is a genius, he had initiative when looking for different tools and implementing them in the project giving a great visual appearance to the page. He is a self-taught person who strives to achieve his goals. He is also an excellent companion and human being. It was a pleasure to work with him.",
+    name: "Miguel",
+    title: "Developer",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Ezequiel worked very efficiently, always focusing on the details of the work. He also adapted very well to the team work. He knew how to apply his skills on the required tasks to reach our goals. I strongly recommend his skills.",
+    name: "Pablo",
+    title: "Developer",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Ezequiel is an excellent colleague, I shared a team with him, although not in the same sector within the project, beyond this I could see that he knows how to handle himself very well within a team. He is a specialist in design, he likes things to look good and I notice good UX/UI oriented programming. On the other hand, Ezequiel manages good communication, listens actively and is always willing to learn new tools.",
+    name: "Tomas",
+    title: "Developer",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Ezequiel is an excellent developer, has a great learning capacity and has great creativity. It can offer the most optimal solution for any problem or task assigned to it and has great potential for the frontend!",
+    name: "Jhoskar",
+    title: "Developer",
+  },
+  {
+    quote:
+      "Eze is an excellent professional not only technically but also socially, he works as a team, is self-taught and is also a front-end expert. A great pleasure to work with him.",
+    name: "Alejandro",
+    title: "Developer",
   },
 ];
 
@@ -223,13 +229,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "github.com/ezefaz",
   },
   {
     id: 2,
     img: "/twit.svg",
+    link: "x.com/fazdev",
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/efaszczak",
   },
 ];
